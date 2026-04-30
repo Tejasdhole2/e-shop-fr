@@ -1,0 +1,92 @@
+/* MAIN */
+.admin-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  color: white;
+}
+
+/* FORM */
+.form-box {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-box input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #1f2937;
+  color: white;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-box button:hover {
+  background: #2563eb;
+}
+
+/* IMAGE PREVIEW */
+.preview-img {
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* PRODUCT LIST */
+.product-list {
+  margin-top: 20px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111827;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* INFO */
+.info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+/* BUTTONS */
+.actions button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: orange;
+}
+
+.actions button:last-child {
+  background: red;
+  color: white;
+}
